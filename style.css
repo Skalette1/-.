@@ -1,0 +1,86 @@
+body {
+    background-color: #000;
+    color: var(--color);
+    --color: rgb(13, 249, 131);
+}
+
+.container {
+    font-family: 'Roboto',sans-serif;
+    font-size: 2.5rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 5rem;
+    color: rgb(13, 249, 131);
+}
+
+ .resultat {
+    display: flex;
+    flex-direction: column;
+ }
+
+.input-box {
+    display: flex;
+    justify-content: center;
+    margin-top: -20rem;
+}
+
+.input-box input {
+    margin: 0 .4rem;
+    width: 35%;
+    padding: 0.7rem;
+}
+ 
+
+.btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+button {
+    width: 13rem;
+    margin: 6rem;
+    padding: 1rem;
+    font-size: 1.6rem;
+    color: #fff;
+    background-color: #000;
+    text-align: center;
+    border: 3px solid rgb(13, 249, 131);
+}
+
+@media(max-width: 600px) {
+
+    .input-box {
+        display: flex;
+        flex-direction: row;
+        margin-top: -9rem;
+     }
+
+     .input-box input {
+        padding: .4rem;
+        margin: .3rem 0.6rem;
+     }
+
+    .btn {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top: 1rem;
+    }
+
+button {
+    width: 12rem;
+    padding: 1rem;
+    margin: 0.5rem;
+    color: #fff;
+    background-color: #000;
+    text-align: center;
+    border: 5px solid #076d245a;
+}
+}
