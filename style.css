@@ -19,12 +19,12 @@ body {
  .resultat {
     display: flex;
     flex-direction: column;
+    margin-top: -4rem;
  }
 
 .input-box {
     display: flex;
     justify-content: center;
-    margin-top: -20rem;
 }
 
 .input-box input {
@@ -57,7 +57,7 @@ button {
     .input-box {
         display: flex;
         flex-direction: row;
-        margin-top: -9rem;
+        margin: 1rem 0;
      }
 
      .input-box input {
@@ -82,5 +82,13 @@ button {
     background-color: #000;
     text-align: center;
     border: 5px solid #076d245a;
+}
+
+p {
+    margin-top: 2rem;
+}
+
+.resultat {
+    margin-top: -4rem;
 }
 }

@@ -1,7 +1,7 @@
 
-var winner = "Congragulation, You Win!";
-var looser = "Sorry, You Lose(";
-var draw = "Play one more";
+var winner = "Вы победили!";
+var looser = "Проигрыш(";
+var draw = "Ничья";
 var playerWins = 0;
 var computerWins = 0;
 
