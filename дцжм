@@ -1,0 +1,11 @@
+PS C:\Users\555\Desktop\KNB> git init
+Reinitialized existing Git repository in C:/Users/555/Desktop/KNB/.git/
+PS C:\Users\555\Desktop\KNB> git add .
+PS C:\Users\555\Desktop\KNB> git commit -m "second"
+[main 8283f08] second
+ 3 files changed, 17 insertions(+), 11 deletions(-)
+PS C:\Users\555\Desktop\KNB> git branch -m Main
+fatal: a branch named 'Main' already exists
+PS C:\Users\555\Desktop\KNB> git remote add origin https://github.com/Skalette1/-.
+error: remote origin already exists.
+PS C:\Users\555\Desktop\KNB> git push -u origin main

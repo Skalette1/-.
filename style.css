@@ -92,3 +92,11 @@ p {
     margin-top: -4rem;
 }
 }
+
+@media(max-width: 450px) {
+    .container {
+        display: flex;
+        justify-content: flex-start;
+        text-align: left;
+    }
+}
